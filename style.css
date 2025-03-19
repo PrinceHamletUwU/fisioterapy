@@ -1,0 +1,94 @@
+/*titulo*/
+body{
+    background-image: url('simbo.webp');
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: yellowgreen;
+    color: rgb(0, 0, 0);
+    width: 556px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: aliceblue;
+}
+/*1º parte*/
+#paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+
+#img{
+    width: 320px;
+}
+
+#info1, #info2, #info3{
+    display: none;
+    position: relative;
+    transition: 0.5s;
+    width: 516px;
+    margin: 0 20px 0px 20px;
+    padding:20px;
+    border: 1px solid salmon;
+    background-color: rgb(118, 173, 224);
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    color: blue;
+    cursor: pointer;
+    display: contents;
+}
+#texto{
+    width: 516px;
+    margin: 0 20px 0px 20px;
+    padding:20px;
+    border: 1px solid salmon;
+    background-color: rgb(118, 173, 224);
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    position: relative;
+    transition: 0.5s;
+}
+/*
+#info2{
+    display: none;
+    position: relative;
+    transition: 0.5s;
+}
+#info2{
+    width: 28%;
+    margin: 0 20px 20px 20px;
+    padding:20px;
+    border: 1px solid salmon;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info3{
+    display: none;
+    position: relative;
+    transition: 0.5s;
+}
+#info3{
+    width: 28%;
+    margin: 0 20px 20px 20px;
+    padding:20px;
+    border: 1px solid salmon;
+    text-align: justify;
+}
